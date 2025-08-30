@@ -1,0 +1,48 @@
+
+
+/* basic syntax */
+/*
+selector{
+    property:value;
+}
+ */ 
+ /*
+ element slector
+ */
+ h4 {
+    color: brown;
+
+ }
+ h2{
+    color: rgb(247, 137, 137);
+}
+ p{
+    font-style: oblique;
+ }
+ div{
+    padding-right: 100px;
+ }
+
+ /*
+ Class slector
+ */
+ .lorem{
+    font-size: 20px;
+    font-style: italic;
+}
+.selector {
+    background-color: rgb(126, 231, 231);
+}
+.j{
+    padding: 20px;
+    background-color: rgb(165, 161, 42);
+}
+/* id selector */
+
+#test{
+    background-color: blueviolet;
+}
+/* group selector */
+ul li{
+    background-color: brown;
+} 
