@@ -1,0 +1,45 @@
+/*
+0-9
+A-F
+*/
+#hex-color{
+    color: #dc2323;
+}
+
+
+#rgb-color{
+    color:rgb(247, 23, 176);
+}
+/*
+hue:0-360 %
+saturation: 0-100% 
+Lightness: 0-100%
+ */
+#hsl-color{
+    color:hsl(200, 85%, 47%);
+}
+
+
+.background{
+    background-color: rgb(166, 101, 227);
+}
+.background h2{
+    color: rgb(255, 0, 0);
+}
+/* 
+background image ar jonno
+background-image:url(image url);
+backgroun-size:cover;
+background-position:center;
+height:9998px;
+ */
+
+ /* 
+  Multiple Background images::::
+   background image:url(),url();
+   background position:;
+   background size:contain;  
+ */
+ /*
+ background:linear-gradient(to bottom,clor1,color2)' 
+  */
