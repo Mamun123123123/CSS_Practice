@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display Property Demo</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Block Example */
+.block-box {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+/* Inline Example */
+.inline-box {
+    display: inline;
+    background-color: lightgreen;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+/* Inline-block Example */
+.inline-block-box {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Flex Example */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 10px;
+}
+.flex-item {
+    background-color: coral;
+    padding: 20px;
+    color: white;
+
+}
+.flex{
+    display: flex;
+    
+}
+
+/* Grid Example */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+.grid-item {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Display none */
+.none-box {
+    display:none;
+    background-color: red;
+    color: rgb(244, 233, 233);
+    padding: 10px;
+}
+
+/* Display contents */
+.contents-wrapper {
+    display: contents;
+}
+.contents-wrapper div {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>1. Block</h2>
+<div class="block-box">Block Box 1</div>
+<div class="block-box">Block Box 2</div>
+
+<h2>2. Inline</h2>
+<span class="inline-box">Inline 1</span>
+<span class="inline-box">Inline 2</span>
+<span class="inline-box">Inline 3</span>
+
+<h2>3. Inline-Block</h2>
+<div class="inline-block-box">IB 1</div>
+<div class="inline-block-box">IB 2</div>
+<div class="inline-block-box">IB 3</div>
+
+<h2>4. Flex</h2>
+<div class="flex-container">
+    <div class="flex-item">Flex 1</div>
+    <div class="flex">
+        <div class="flex-item">Flex 2</div>
+    <div class="flex-item">Flex 3</div>
+    <div class="flex-item">Flex 4</div>
+    <div class="flex-item">Flex 5</div>
+    <div class="flex-item">Flex 6</div>
+    </div>
+    
+    <div class="flex-item">Flex 7</div>
+</div>
+
+<h2>5. Grid</h2>
+<div class="grid-container">
+    <div class="grid-item">Grid 1</div>
+    <div class="grid-item">Grid 2</div>
+    <div class="grid-item">Grid 3</div>
+    <div class="grid-item">Grid 4</div>
+    <div class="grid-item">Grid 5</div>
+</div>
+
+<h2>6. Display None</h2>
+<div class="none-box">You can't see me!</div>
+<p>This paragraph is visible because the red box above is hidden.</p>
+
+<h2>7. Display Contents</h2>
+<div class="contents-wrapper">
+    <div>Content 1</div>
+    <div>Content 2</div>
+</div>
+
+</body>
+</html>
